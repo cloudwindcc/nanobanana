@@ -471,6 +471,24 @@ const App: React.FC = () => {
         onUseImage={handleUseHistoryImageAsInput}
         onDownload={handleDownloadFromHistory}
       />
+      
+      {/* Footer */}
+      <footer className="bg-black/60 border-t border-white/10 py-6 mt-12">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
+            <div className="flex items-center gap-6">
+              <a href="#" className="hover:text-gray-200 transition-colors">免责声明</a>
+              <a href="#" className="hover:text-gray-200 transition-colors">隐私说明</a>
+            </div>
+            <div className="flex items-center gap-2">
+              <span>联系我们:</span>
+              <a href="mailto:info@nanobanana.bar" className="text-orange-400 hover:text-orange-300 transition-colors">
+                info@NanoBanana.bar
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
