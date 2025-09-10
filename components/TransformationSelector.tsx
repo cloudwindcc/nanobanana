@@ -28,10 +28,10 @@ const TransformationSelector: React.FC<TransformationSelectorProps> = ({ transfo
             onClick={() => onSelect(trans)}
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}
-            className="group relative flex flex-col items-center justify-center text-center p-4 aspect-square bg-gray-950 rounded-xl border border-white/10 hover:border-orange-500 transition-all duration-200 ease-in-out transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-black focus:ring-orange-500"
+            className="group relative flex flex-col items-center justify-center text-center p-3 aspect-video bg-gray-950 rounded-xl border border-white/10 hover:border-orange-500 transition-all duration-200 ease-in-out transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-black focus:ring-orange-500"
           >
-            <span className="text-4xl mb-2 transition-transform duration-200 group-hover:scale-110">{trans.emoji}</span>
-            <span className="font-semibold text-sm text-gray-200">{trans.title}</span>
+            <span className="text-3xl mb-1 transition-transform duration-200 group-hover:scale-110">{trans.emoji}</span>
+            <span className="font-semibold text-xs text-gray-200 leading-tight">{trans.title}</span>
             
             {/* Preview tooltip */}
             {hoveredIndex === index && (
