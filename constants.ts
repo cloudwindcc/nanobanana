@@ -11,14 +11,28 @@ export const TRANSFORMATIONS: Transformation[] = [
     description: "Describe any change you can imagine/输入自定义提示词"
   },
   { 
-    title: "3D Figurine <br /> 3D手办", 
+    title: "3D Figurine\n 3D手办", 
     prompt: "Use the nano-banana model to create a 1/7 scale commercialized figure of thecharacter in the illustration, in a realistic style and environment. Place the figure on a computer desk, using a circular transparent acrylic base without any text.On the computer screen, display the ZBrush modeling process of the figure. Next to the computer screen, place a BANDAI-style toy packaging box printed with the original artwork.", 
-    emoji: "🧍",
+    emoji: "🦄",
     description: "Turns your photo into a collectible 3D character figurine, complete with packaging."
+  },
+  
+  { 
+    title: "Hair Cut\n 发型九宫格", 
+    prompt: "给此人换上9种各不相同的发型，组成一个九宫格图", 
+    emoji: "💇‍♀️",
+    description: "换上9种各不相同的发型，组成九宫格图."
+  },
+  
+  { 
+    title: "Polaroid photo\n 手捏宝丽来照片", 
+    prompt: "宝丽来照片，被手握着照片的一角，画面中是参考图片，柔和暖光在海边投下影子，胶片质感，写实且具清新艺术感", 
+    emoji: "📷",
+    description: "宝丽来照片，被手握着照片的一角."
   },
 
 {
-title: "Funko Pop Figure\n Funko Pop 人偶",
+title: "Funko Pop Figure\n Pop人偶",
 prompt: "Transform the person into a Funko Pop figure, shown inside and next to its packaging.",
 emoji: "📦",
 description: "Reimagines your subject as an adorable Funko Pop! vinyl figure in its box."
