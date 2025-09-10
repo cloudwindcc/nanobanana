@@ -474,7 +474,7 @@ const App: React.FC = () => {
       
     </div>
 
-  };
+  );
 
 // Add fade-in animation for view transitions
 const style = document.createElement('style');
