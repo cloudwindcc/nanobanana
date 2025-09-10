@@ -11,7 +11,7 @@ export const TRANSFORMATIONS: Transformation[] = [
     description: "Describe any change you can imagine/输入自定义提示词"
   },
   { 
-    title: "3D Figurine\n 3D手办", 
+    title: "3D Figurine <br /> 3D手办", 
     prompt: "Use the nano-banana model to create a 1/7 scale commercialized figure of thecharacter in the illustration, in a realistic style and environment. Place the figure on a computer desk, using a circular transparent acrylic base without any text.On the computer screen, display the ZBrush modeling process of the figure. Next to the computer screen, place a BANDAI-style toy packaging box printed with the original artwork.", 
     emoji: "🧍",
     description: "Turns your photo into a collectible 3D character figurine, complete with packaging."
