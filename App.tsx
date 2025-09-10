@@ -1,5 +1,4 @@
-
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import { TRANSFORMATIONS } from './constants';
 import { editImage } from './services/geminiService';
 import type { GeneratedContent, Transformation } from './types';
@@ -8,8 +7,11 @@ import ResultDisplay from './components/ResultDisplay';
 import LoadingSpinner from './components/LoadingSpinner';
 import ErrorMessage from './components/ErrorMessage';
 import ImageEditorCanvas from './components/ImageEditorCanvas';
-import { dataUrlToFile, embedWatermark } from './utils/fileUtils';
+// Fix: Removed unused and non-existent 'fileToDataUrl' import.
+import { dataUrlToFile, embedWatermark, loadImage, resizeImageToMatch, downloadImage } from './utils/fileUtils';
 import ImagePreviewModal from './components/ImagePreviewModal';
+import MultiImageUploader from './components/MultiImageUploader';
+import HistoryPanel from './components/HistoryPanel';
 
 type ActiveTool = 'mask' | 'none';
 
