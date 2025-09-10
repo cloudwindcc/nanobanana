@@ -473,14 +473,12 @@ const App: React.FC = () => {
       />
       
     </div>
-         {/* Footer with contact information */}
+  
       <footer className="py-4 text-center text-gray-500 text-sm border-t border-white/10">
-       <p>Contact: <a href="mailto:info@nanobanana.bar" className="text-orange-500 hover:text-orange-400
-           + transition-colors">info@nanobanana.bar</a></p>
-        </footer>
-    
-  );
-};
+       <p>Contact: <a href="mailto:info@nanobanana.bar" className="text-orange-500 hover:text-orange-400 transition-colors">info@nanobanana.bar</a></p>
+  </footer>
+    )
+  };
 
 // Add fade-in animation for view transitions
 const style = document.createElement('style');
