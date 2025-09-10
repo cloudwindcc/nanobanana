@@ -11,11 +11,11 @@ interface TransformationSelectorProps {
 const TransformationSelector: React.FC<TransformationSelectorProps> = ({ transformations, onSelect, hasPreviousResult }) => {
   return (
     <div className="container mx-auto p-4 md:p-8 animate-fade-in">
-      <h2 className="text-3xl font-bold text-center mb-4 text-orange-500">Choose an Effect</h2>
+      <h2 className="text-3xl font-bold text-center mb-4 text-orange-500">Pick Your Effect 选择成片效果</h2>
       <p className="text-lg text-center text-gray-400 mb-8 max-w-2xl mx-auto">
         {hasPreviousResult 
-          ? "Your previous result is loaded. Select a new transformation to apply."
-          : "Select a creative transformation below. You'll be asked to upload your image on the next step."
+          ? "Previous result loaded. Select a new one. 请选择一个新的图片效果"
+          : "Select one then upload your image. 选择一个效果，并上传图片"
         }
       </p>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
