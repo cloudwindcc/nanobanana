@@ -14,7 +14,7 @@ const TransformationSelector: React.FC<TransformationSelectorProps> = ({ transfo
 
   return (
     <div className="container mx-auto p-4 md:p-8 animate-fade-in">
-      <h2 className="text-3xl font-bold text-center mb-4 text-orange-500">Choose different Nano Banano effects. 用Nano Banana解锁图片创意</h2>
+      <h2 className="text-3xl font-bold text-center mb-4 text-orange-500">Choose an effects 解锁创意</h2>
       <p className="text-lg text-center text-gray-400 mb-8 max-w-2xl mx-auto">
         {hasPreviousResult 
           ? "Previous result loaded. Select a new one. 请选择新的图片效果"
