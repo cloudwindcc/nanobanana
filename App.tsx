@@ -142,7 +142,7 @@ const App: React.FC = () => {
       <header className="bg-black/60 backdrop-blur-lg sticky top-0 z-20 p-4 border-b border-white/10">
         <div className="container mx-auto flex justify-between items-center">
           <h1 className="text-2xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-400 cursor-pointer" onClick={handleResetApp}>
-            🍌 Nano Bananary｜ZHO
+            🍌 Nano Banana BAR｜香蕉吧
           </h1>
         </div>
       </header>
