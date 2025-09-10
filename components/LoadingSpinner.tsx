@@ -8,7 +8,7 @@ interface LoadingSpinnerProps {
 }
 
 const LoadingSpinner: React.FC<LoadingSpinnerProps> = ({ 
-  message = 'Generating...图片生成中', 
+  message = 'Generating...图片生成中...', 
   progress,
   showProgress = false 
 }) => {
@@ -29,7 +29,7 @@ const LoadingSpinner: React.FC<LoadingSpinnerProps> = ({
       
       <div className="text-center">
         <p className="text-lg font-medium mb-2">{message}</p>
-        <p className="text-sm text-gray-400">请稍等，AI正在努力创作中...</p>
+        <p className="text-sm text-gray-400">请稍等，AI创作中...</p>
       </div>
       
       {showProgress && progress !== undefined && (
