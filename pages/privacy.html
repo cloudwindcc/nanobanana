@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隐私说明 - Nano Banana</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #000;
+            color: #e5e7eb;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(17, 24, 39, 0.8);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            padding: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        h1 {
+            color: #f97316;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #f97316;
+            margin-top: 30px;
+            font-size: 1.5em;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .language-toggle {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .language-toggle button {
+            background: rgba(249, 115, 22, 0.2);
+            border: 1px solid #f97316;
+            color: #e5e7eb;
+            padding: 8px 16px;
+            margin: 0 5px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .language-toggle button.active {
+            background: #f97316;
+            color: #000;
+        }
+        .content {
+            display: none;
+        }
+        .content.active {
+            display: block;
+        }
+        a {
+            color: #f97316;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>隐私说明 / Privacy Policy</h1>
+        
+        <div class="language-toggle">
+            <button onclick="showLanguage('chinese')" class="active">中文</button>
+            <button onclick="showLanguage('english')">English</button>
+        </div>
+
+        <div id="chinese-content" class="content active">
+            <div class="section">
+                <h2>🔐 隐私承诺</h2>
+                <p>Nano Banana 高度重视用户隐私保护。本隐私说明阐述了我们会如何收集、使用和保护您的信息。</p>
+            </div>
+
+            <div class="section">
+                <h2>📸 收集的信息</h2>
+                <p>我们仅收集提供服务所必需的信息：</p>
+                <ul>
+                    <li><strong>上传的图片</strong>：用于AI图像处理，处理完成后会自动删除</li>
+                    <li><strong>生成记录</strong>：保存您的生成历史以便您查看和重用</li>
+                    <li><strong>技术信息</strong>：设备类型、浏览器版本等匿名数据</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>🛡️ 数据安全</h2>
+                <p>我们采取严格的安全措施保护您的数据：</p>
+                <ul>
+                    <li>图片数据在传输和存储过程中进行加密</li>
+                    <li>生成记录仅保存在您的本地设备中</li>
+                    <li>不收集个人身份信息</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>🗑️ 数据保留</h2>
+                <p>您的数据保留政策：</p>
+                <ul>
+                    <li>上传的原始图片：处理完成后立即删除</li>
+                    <li>生成的图片：保存在您的本地浏览器中</li>
+                    <li>您可以随时清除浏览器数据来删除所有记录</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>📧 联系我们</h2>
+                <p>如对隐私政策有任何疑问，请通过 <a href="mailto:info@nanobanana.bar">info@nanobanana.bar</a> 联系我们。</p>
+                <p><em>最后更新日期：2024年12月</em></p>
+            </div>
+        </div>
+
+        <div id="english-content" class="content">
+            <div class="section">
+                <h2>🔐 Privacy Commitment</h2>
+                <p>Nano Banana takes user privacy seriously. This policy explains how we collect, use, and protect your information.</p>
+            </div>
+
+            <div class="section">
+                <h2>📸 Information Collected</h2>
+                <p>We only collect information necessary to provide our services:</p>
+                <ul>
+                    <li><strong>Uploaded Images</strong>: For AI processing, automatically deleted after processing</li>
+                    <li><strong>Generation History</strong>: Saved locally for your reference and reuse</li>
+                    <li><strong>Technical Information</strong>: Anonymous data like device type, browser version</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>🛡️ Data Security</h2>
+                <p>We implement strict security measures to protect your data:</p>
+                <ul>
+                    <li>Image data encrypted during transmission and storage</li>
+                    <li>Generation history stored only on your local device</li>
+                    <li>No personal identifiable information collected</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>🗑️ Data Retention</h2>
+                <p>Our data retention policy:</p>
+                <ul>
+                    <li>Original uploaded images: Deleted immediately after processing</li>
+                    <li>Generated images: Stored in your local browser</li>
+                    <li>You can clear browser data at any time to remove all records</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>📧 Contact Us</h2>
+                <p>For any questions about our privacy policy, contact us at <a href="mailto:info@nanobanana.bar">info@nanobanana.bar</a>.</p>
+                <p><em>Last Updated: December 2024</em></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showLanguage(lang) {
+            document.querySelectorAll('.content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.language-toggle button').forEach(btn => btn.classList.remove('active'));
+            document.getElementById(lang + '-content').classList.add('active');
+            document.querySelector(`button[onclick="showLanguage('${lang}')"]`).classList.add('active');
+        }
+    </script>
+</body>
+</html>
