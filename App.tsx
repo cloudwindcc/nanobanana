@@ -174,7 +174,7 @@ const App: React.FC = () => {
             );
             
             if (stepTwoResult.imageUrl) {
-                stepTwoResult.imageUrl = await embedWatermark(stepTwoResult.imageUrl, "Nano Banana BAR");
+                stepTwoResult.imageUrl = await embedWatermark(stepTwoResult.imageUrl, "Nano Bananary｜ZHO");
             }
 
             const finalResult = {
@@ -202,7 +202,7 @@ const App: React.FC = () => {
             );
 
             if (result.imageUrl) {
-                result.imageUrl = await embedWatermark(result.imageUrl, "Nano Banana BAR");
+                result.imageUrl = await embedWatermark(result.imageUrl, "Nano Bananary｜ZHO");
             }
 
             setGeneratedContent(result);
@@ -288,7 +288,7 @@ const App: React.FC = () => {
       <header className="bg-black/60 backdrop-blur-lg sticky top-0 z-20 p-4 border-b border-white/10">
         <div className="container mx-auto flex justify-between items-center">
           <h1 className="text-2xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-400 cursor-pointer" onClick={handleResetApp}>
-            🍌 Nano Banana BAR
+            🍌 Nano Banana
           </h1>
           <button
             onClick={toggleHistoryPanel}
@@ -472,9 +472,13 @@ const App: React.FC = () => {
         onDownload={handleDownloadFromHistory}
       />
       
+      {/* Footer with contact information */}
+      <footer className="py-4 text-center text-gray-500 text-sm border-t border-white/10">
+        <p>Contact: <a href="mailto:info@nanobanana.bar" className="text-orange-500 hover:text-orange-400 transition-colors">info@nanobanana.bar</a></p>
+      </footer>
     </div>
-
   );
+};
 
 // Add fade-in animation for view transitions
 const style = document.createElement('style');
