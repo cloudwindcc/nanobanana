@@ -4,8 +4,7 @@ import type { Transformation } from './types';
 export const TRANSFORMATIONS: Transformation[] = [
   // Viral & Fun Transformations
   { 
-    title: "Custom Prompt
-      自定义", 
+    title: "Custom Prompt\n 自定义", 
     prompt: "CUSTOM", 
     emoji: "✍️",
     description: "Describe any change you can imagine/输入自定义提示词"
