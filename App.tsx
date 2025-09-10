@@ -174,7 +174,7 @@ const App: React.FC = () => {
             );
             
             if (stepTwoResult.imageUrl) {
-                stepTwoResult.imageUrl = await embedWatermark(stepTwoResult.imageUrl, "Nano Bananary｜ZHO");
+                stepTwoResult.imageUrl = await embedWatermark(stepTwoResult.imageUrl, "Nano Banana BAR");
             }
 
             const finalResult = {
@@ -202,7 +202,7 @@ const App: React.FC = () => {
             );
 
             if (result.imageUrl) {
-                result.imageUrl = await embedWatermark(result.imageUrl, "Nano Bananary｜ZHO");
+                result.imageUrl = await embedWatermark(result.imageUrl, "Nano Banana BAR");
             }
 
             setGeneratedContent(result);
