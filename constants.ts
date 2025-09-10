@@ -15,7 +15,7 @@ export const TRANSFORMATIONS: Transformation[] = [
     emoji: "🧍",
     description: "Turns your photo into a collectible 3D character figurine, complete with packaging."
   },
-  { 
+
 {
 title: "Funko Pop Figure\n Funko Pop 人偶",
 prompt: "Transform the person into a Funko Pop figure, shown inside and next to its packaging.",
