@@ -3,7 +3,7 @@
 
 
 
-# Nano Bananary ｜ 香蕉超市 ｜ ZHO
+# Nano Banana BAR ｜ 香蕉吧 ｜ NanoBanana.BAR
 
 ## 项目主要功能
 
@@ -61,7 +61,7 @@
 
 
 
-Use in AI Studio: https://ai.studio/apps/drive/1JknFrFFdiOm7FIA8MLOJa_vtJN2g24c1
+Use for Free: https://nanoBanana.BAR
 
 
 ## Run Locally
