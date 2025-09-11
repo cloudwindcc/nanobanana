@@ -25,6 +25,12 @@ prompt: "宝丽来照片，被手握着照片的一角，画面中是参考图�
 emoji: "📷",
 description: "宝丽来照片，被手握着照片的一角."
 },
+{ 
+title: "Professional photo\n 职业证件照", 
+prompt: "截取图片人像头部，帮我做成2寸证件照，要求:蓝底、职业正装、正脸、微笑", 
+emoji: "📷",
+description: "蓝底2寸职业证件照."
+},
 {
 title: "Funko Pop Figure\n Pop人偶",
 prompt: "Transform the person into a Funko Pop figure, shown inside and next to its packaging.",
@@ -192,7 +198,7 @@ emoji: "💄",
 description: "Analyzes makeup in a portrait and suggests improvements with red-pen markup."
 },
 {
-title: "Change Background\n 更换背景（Y2K 风格）",
+title: "Change Background\n 更换背景（Y2K风格）",
 prompt: "Change the background to a Y2K aesthetic style.",
 emoji: "🪩",
 description: "Swaps the existing background for a cool, retro Y2K aesthetic."
