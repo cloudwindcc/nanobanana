@@ -19,6 +19,11 @@ prompt: "给此人换上9种各不相同的发型，组成一个九宫格图，�
 emoji: "💇‍♀️",
 description: "换上9种各不相同的发型，组成九宫格图."
 },
+  title: "Professional photo\n 蓝底证件照", 
+prompt: "截取图片人像头部，帮我做成2寸证件照，要求:蓝底、职业正装、正脸、微笑", 
+emoji: "📷",
+description: "蓝底2寸职业证件照."
+},
 { 
 title: "Polaroid photo\n 手捏宝丽来照片", 
 prompt: "宝丽来照片，被手握着照片的一角，画面中是参考图片，柔和暖光在海边投下影子，胶片质感，写实且具清新艺术感", 
@@ -26,11 +31,13 @@ emoji: "📷",
 description: "宝丽来照片，被手握着照片的一角."
 },
 { 
-title: "Professional photo\n 职业证件照", 
-prompt: "截取图片人像头部，帮我做成2寸证件照，要求:蓝底、职业正装、正脸、微笑", 
+title: "Professional photo\n 职业艺术照片", 
+prompt: "Convert the uploaded portrait into an American-style professional headshot in corporate photography style, while preserving the original person’s facial features and identity.
+Requirements: half-body portrait, blue textured studio background, soft natural studio lighting, high-definition clarity, realistic skin tones, clean and elegant composition.The person should wear a sleeveless white dress, minimalist and elegant design, modern and professional style, paired with simple gold jewelry . Expression should be relaxed, confident, and natural with bright, engaging eyes and a genuine smile.", 
 emoji: "📷",
-description: "蓝底2寸职业证件照."
+description: "职业艺术照."
 },
+
 {
 title: "Funko Pop Figure\n Pop人偶",
 prompt: "Transform the person into a Funko Pop figure, shown inside and next to its packaging.",
