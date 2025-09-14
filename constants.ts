@@ -32,8 +32,7 @@ description: "宝丽来照片，被手握着照片的一角."
 },
 { 
 title: "Professional photo\n 职业艺术照片", 
-prompt: "Convert the uploaded portrait into an American-style professional headshot in corporate photography style, while preserving the original person’s facial features and identity.
-Requirements: half-body portrait, blue textured studio background, soft natural studio lighting, high-definition clarity, realistic skin tones, clean and elegant composition.The person should wear a sleeveless white dress, minimalist and elegant design, modern and professional style, paired with simple gold jewelry . Expression should be relaxed, confident, and natural with bright, engaging eyes and a genuine smile.", 
+prompt: "Convert the uploaded portrait into an American-style professional headshot in corporate photography style, while preserving the original person’s facial features and identity.Requirements: half-body portrait, blue textured studio background, soft natural studio lighting, high-definition clarity, realistic skin tones, clean and elegant composition.The person should wear a sleeveless white dress, minimalist and elegant design, modern and professional style, paired with simple gold jewelry. Expression should be relaxed, confident, and natural with bright, engaging eyes and a genuine smile.", 
 emoji: "📷",
 description: "职业艺术照."
 },
